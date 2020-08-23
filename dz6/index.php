@@ -8,4 +8,5 @@ include __DIR__ . '/pages/' . $pageName;
 $content = ob_get_clean();
 
 $html = file_get_contents('main.html');
+
 echo str_replace('{{content}}', $content, $html);
