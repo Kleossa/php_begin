@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect('localhost', 'root', 'root', 'dz5_bd');
+$link = mysqli_connect('localhost', 'root', 'root', 'product_bd');
 
 
 function getPage($pages)

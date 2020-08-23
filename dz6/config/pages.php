@@ -6,4 +6,5 @@ return [
     4 => 'userAdd.php',
     5 => 'calc1.php',
     6 => 'calc2.php',
+    7 => 'catalog.php',
 ];
