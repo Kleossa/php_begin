@@ -4,7 +4,7 @@ function getLink()
 {
     static $link;
     if (empty($link)) {
-        $link = mysqli_connect('localhost', 'root', '', 'gbphp');
+        $link = mysqli_connect('localhost', 'root', 'root', 'product_bd');
     }
 
     return $link;
