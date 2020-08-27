@@ -1,0 +1,17 @@
+.content{
+    margin: 10px auto;
+    width: 1200px;
+}
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul.hr li {
+    display: block; /* Отображать как строчный элемент */
+    padding: 3px; /* Поля вокруг текста */
+    width: 200px;
+    text-align: center;
+}
