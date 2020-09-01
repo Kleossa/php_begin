@@ -1,5 +1,5 @@
 <?php
-    /**@var array $goods */
+/**@var array $goods */
 ?>
 
 <h1>Корзина</h1>
@@ -11,12 +11,11 @@
         <p>товар: <?= $good['name'] ?></p>
         <p>
             Количество:
-            <a href="">-</a>
+            <!-- <a href="">-</a> -->
             <?= $good['count'] ?>
-            <a href="?p=cart&a=add&id=<?= $id ?>">+</a>
+            <!-- <a href="?p=cart&a=add&id=<?= $id ?>">+</a> -->
         </p>
         <p>Цена: <?= $total ?></p>
         <hr>
     <?php endforeach; ?>
 <?php endIf; ?>
-<a href="?p=order&a=create">Сформировать заказ</a>

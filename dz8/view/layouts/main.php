@@ -20,6 +20,7 @@
             Корзина <span class="countGood">(<?= $countGoodsInCart ?>)</span>
         </a>
     </li>
+    <li><a href="?p=order">Заказы</a></li>
     <li><a href="?page=2">Пользователи</a></li>
     <li><a href="?p=user&a=add">Добавить пользователя</a></li>
     <li><a href="?p=auth&a=index">Вход</a></li>
